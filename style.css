@@ -1,0 +1,141 @@
+body {
+  background-color: rgb(23, 23, 23) !important;
+  font-family: 'Rubik', sans-serif !important;
+  /*background-image: url("background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: block;
+  overflow: hidden;
+  background-position: 50%;
+  */
+}
+
+/* ******* */
+/* Footer */
+.footer {
+
+  color: rgb(32, 32, 32);
+  background-color: rgba(255, 255, 255, 0.3);
+
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.footer a {
+  color: white;
+  text-shadow: 0 1px 0 rgba(32, 32, 32, 0.8);
+}
+
+.footer a:hover {
+  color: rgb(130, 188, 255);
+}
+
+/* ******* */
+
+
+#reset-storage-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 25px;
+}
+
+.header {
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  background: #5edfff;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+  box-shadow: 2px 2px 2px rgba(32, 32, 32, 0.5);
+  margin-bottom: 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 5px;
+}
+
+#header-text {
+  font-family: 'Anton', sans-serif;
+}
+
+#header-credit {
+  font-size: 0.5em;
+  font-family: 'Rubik', sans-serif;
+}
+
+#date {
+  position: absolute;
+  bottom: 0px;
+  left: 10px;
+  color: #FFF;
+  font-size: 25px;
+}
+
+
+#container {
+  width: 80%;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.3);
+  margin-top: 50px;
+  padding: 20px;
+  box-shadow: 2px 2px 2px rgb(32, 32, 32);
+  border-radius: 4px;
+}
+
+#new-todo-input {
+  width: 97%;
+  height: 50px;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin-bottom: 10px;
+  border-radius: 6px;
+  color: white;
+  box-shadow: none;
+  border-color: black;
+  padding: 0px 20px 0px 10px;
+}
+
+#new-todo-submitbtn {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  border-radius: 25px;
+  background: #ffb3b3;
+  border-color: #ffdcf7;
+  right: 1%;
+}
+
+#new-todo-submitbtn i {
+  font-size: 2em;
+  position: relative;
+  top: 2px;
+}
+
+#todo-list-container {
+  overflow-y: auto;
+  height: 70vh;
+}
+
+#todo-list-container li {
+  width: 100%;
+  float: left;
+}
+
+
+#todo-list-container li:hover {
+  cursor: pointer;
+  background-color: #5edfff;
+  color: white;
+  text-decoration: line-through;
+  text-decoration-color: #f67e7d;
+}
+
+#todo-list-container-new {
+  overflow-y: auto;
+  height: 400px;
+  color: white;
+}

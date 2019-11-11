@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!--Google Fonts-->
+  <link
+    href="https://fonts.googleapis.com/css?family=Rubik:300i,400,700,700i&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Anton&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+
+  <!--Bootstrap-->
+  <link rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous">
+
+  <!-- Add icon library -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <title>To-Do List By Stephen McVicker</title>
+</head>
+
+<body>
+
+  <div class="container-fluid px-0">
+    <div class="header">
+
+      <div id="header-text">
+        <h1>TODO
+          <!--<span id="header-credit">By Stephen McVicker</span> -->
+        </h1>
+      </div>
+      <div id="date"></div>
+    </div>
+    <div class="content">
+      <div id="new-todo-form-container">
+        <input type="text" id="new-todo-input" placeholder="Add a To-Do">
+        <button class="btn btn-primary" id="new-todo-submitbtn"
+          data-toggle="popover" data-trigger="hover" data-content="Add Task"><i
+            class="fa fa-plus"></i></button>
+      </div>
+      <ul id="todo-list-container" class="list-group">
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer">
+    <span class="devloped-by-stephenmcvicker">Developed by Stephen
+      McVicker</span> |
+    <a href="https://twitter.com/stephenmcvicker">Twitter</a> |
+    <a href="https://github.com/NeoDragonCP">Github</a> |
+    <a href="mailto: mcvickerstephen@gmail.com">Email</a>
+  </div>
+
+
+  <!--Clear Local Storage Button for testing-->
+  <!--
+  <button id="reset-storage-btn" class="btn btn-danger">Clear Local
+    Storage</button>
+  -->
+
+
+  <!--Main javascript file for functions-->
+  <script src="script.js"></script>
+
+
+  <!--Bootstrap-->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+
+  <!--Bootstrap Popover listener-->
+  <script>
+    $(document).ready(function () {
+      $('[data-toggle="popover"]').popover();
+    });
+  </script>
+
+</body>
+
+</html>
