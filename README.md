@@ -1,14 +1,17 @@
 # Simple-ToDo-WebApp
 A simple "To-Do" web app coded in Javascript and CSS.
 
-![Screenshot](https://pbs.twimg.com/media/EGdkxbkWoAgirM1?format=jpg&name=medium)
+![Screenshot](https://imgur.com/SnfL9Lo)
+Desktop version
+
+![Screenshot](https://imgur.com/V0f4jVj)
+Mobile version
+
+
 
 **Quick Note:**
 
-I am uploading this because I am interested in doing front-end development. 
+I am uploading this because I am interested in front-end development.
+It's only intended to be a fun portfolio piece.
 
-## Purpose:
-
-Developed with HTML, CSS, Javascript, and Bootstrap, a simple TO-DO app designed with mobile in mind, although some CSS flare, such as hover, used in the desktop size. 
-The goal of this project was to have interaction with local storage and try to only rely on "pure" Javascript.
 
