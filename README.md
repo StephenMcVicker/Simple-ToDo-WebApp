@@ -1,10 +1,10 @@
 # Simple-ToDo-WebApp
 A simple "To-Do" web app coded in Javascript and CSS.
 
-![Screenshot](https://imgur.com/SnfL9Lo)
+![Screenshot](https://i.imgur.com/SnfL9Lo.png)
 Desktop version
 
-![Screenshot](https://imgur.com/V0f4jVj)
+![Screenshot](https://i.imgur.com/V0f4jVj.png)
 Mobile version
 
 
